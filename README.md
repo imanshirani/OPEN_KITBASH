@@ -1,5 +1,9 @@
 # 📦 OPEN KITBASH for 3ds Max +2026
 
+Developed by: Iman Shirani
+
+[![Donate ❤️](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?hosted_button_id=LAMNRY6DDWDC4)
+
 **OPEN KITBASH** is a powerful, smart, and highly responsive kitbashing and asset management tool built with Python (PySide6) for Autodesk 3ds Max. It streamlines the hard-surface modeling, environment design, and concept art workflow by allowing artists to instantly browse, insert, and manipulate 3D assets with zero friction.
 
 ![Open Kitbash UI](ui/icons/screenshot.png) *(Note: Add a screenshot of your beautiful UI here)*
@@ -49,8 +53,8 @@ Save any selected objects in your scene directly into your library! The tool aut
 3. **Run in 3ds Max:**
    * Open 3ds Max.
    * Go to `Scripting > Run Script...`
-   * Navigate to the extracted folder and run the `startup.py` or `main.py` file.
-   *(Optional: You can drag and drop the startup script onto your toolbar to create a dedicated button).*
+   * Navigate to the extracted folder and run the `launcher.py`file.
+   
 
 ---
 

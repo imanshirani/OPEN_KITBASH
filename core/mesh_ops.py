@@ -23,21 +23,19 @@ def add_conform_modifier(obj, target=None):
         return False
 
 def add_boolean_modifier(obj):
-   
+    
     if not obj or not rt.isValidNode(obj):
         return False
         
     try:
         
-        b_mod = rt.Boolean_Explorer_Modifier()
-        if not b_mod:
-            b_mod = rt.Boolean()
+        b_mod = rt.BooleanMod()
             
         rt.addModifier(obj, b_mod)
         print(f"✅ Boolean Modifier added to {obj.name}")
         return True
-    except:
-        print("❌ Error: Boolean modifier could not be added.")
+    except Exception as e:
+        print(f"❌ Error: Boolean modifier could not be added. Details: {e}")
         return False
 
 def apply_mirror(obj, axis="X"):

@@ -58,7 +58,7 @@ Save any selected objects in your scene directly into your library! The tool aut
 3. **Run in 3ds Max:**
    * Open 3ds Max.
    * Go to `Scripting > Run Script...`
-   * Navigate to the extracted folder and run the `launcher.py`file.
+   * Navigate to the extracted folder and run the `openkitbash.py`file.
    
 or
 

@@ -1,7 +1,7 @@
 from PySide6 import QtWidgets, QtCore
 import webbrowser
-from . import style
-from ..core import constants
+from ui import style
+from core import constants
 
 class SettingsDialog(QtWidgets.QDialog):
     def __init__(self, parent=None, current_path=""):

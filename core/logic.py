@@ -5,7 +5,7 @@ from PySide6 import QtWidgets, QtCore
 from . import io_manager, mesh_ops, config_manager, constants
 
 try:
-    from ..ui import style, browser_item, settings_dialog, add_asset_dialog
+    from ui import style, browser_item, settings_dialog, add_asset_dialog
 except ImportError:
     import ui.style as style
     import ui.browser_item as browser_item

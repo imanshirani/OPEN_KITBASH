@@ -1,5 +1,5 @@
 from PySide6 import QtWidgets, QtCore, QtGui
-from . import style
+from ui import style
 import os
 
 
@@ -76,7 +76,7 @@ class KitbashItem(QtWidgets.QFrame):
             self.clicked.emit(self.file_path)
 
     def contextMenuEvent(self, event):
-        from ..core import logic
+        from core import logic
         main_window = self
         while main_window and not hasattr(main_window, 'log_message'):
             main_window = main_window.parentWidget()

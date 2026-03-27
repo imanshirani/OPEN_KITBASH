@@ -2,9 +2,9 @@ from PySide6 import QtWidgets, QtCore, QtGui
 import os
 
 
-from . import style
-from .browser_item import KitbashItem 
-from ..core import constants, logic
+from ui import style
+from ui.browser_item import KitbashItem
+from core import constants, logic
 
 
 class DraggableDoubleSpinBox(QtWidgets.QDoubleSpinBox):
@@ -370,7 +370,7 @@ class OpenKitbashContent(QtWidgets.QWidget):
             action_new = menu.addAction("➕ Create New Category")
             action = menu.exec_(self.library_tree.mapToGlobal(position))
             if action == action_new: 
-                from ..core import logic
+                from core import logic
                 logic.create_new_category(self)
 
         
@@ -378,7 +378,7 @@ class OpenKitbashContent(QtWidgets.QWidget):
             
             cat_name = item.text(0).strip()
             
-            from ..core import logic
+            from core import logic
             action_rename = menu.addAction("✏ Rename Folder")
             action_delete = menu.addAction("❌ Delete Folder")
             menu.addSeparator()
@@ -395,7 +395,7 @@ class OpenKitbashContent(QtWidgets.QWidget):
 
     def open_in_explorer(self, category_name):
         
-        from ..core import config_manager
+        from core import config_manager
         config = config_manager.load_config()
         
         
@@ -422,7 +422,7 @@ class OpenKitbashContent(QtWidgets.QWidget):
 
     def open_in_explorer(self, category_name):
         """      """
-        from ..core import config_manager
+        from core import config_manager
         config = config_manager.load_config()
         path = os.path.join(config.get("library_path", ""), category_name)
         if os.path.exists(path):

@@ -1,5 +1,5 @@
 from PySide6 import QtWidgets, QtCore
-from . import style
+from ui import style
 
 class AddAssetDialog(QtWidgets.QDialog):
     def __init__(self, categories, parent=None):

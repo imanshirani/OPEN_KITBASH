@@ -1,6 +1,6 @@
 import json
 import os
-from . import constants
+from core import constants
 
 DEFAULT_CONFIG = {
     "library_path": "C:\\MyKitbashLibrary",

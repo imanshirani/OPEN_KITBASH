@@ -60,6 +60,16 @@ Save any selected objects in your scene directly into your library! The tool aut
    * Go to `Scripting > Run Script...`
    * Navigate to the extracted folder and run the `launcher.py`file.
    
+or
+
+## 📦 Installation
+
+Installing the plugin is quick and requires no manual setup in 3ds Max.
+
+1. **Unzip** the downloaded package.
+2. **Copy** the `.bundle` folder to the Autodesk Application Plugins directory:
+   ```text
+   C:\ProgramData\Autodesk\ApplicationPlugins
 
 ---
 

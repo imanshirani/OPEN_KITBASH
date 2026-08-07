@@ -7,6 +7,7 @@ Developed by: Iman Shirani
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.0.2-orange)
 
 **OPEN KITBASH** is a powerful, smart, and highly responsive kitbashing and asset management tool built with Python (PySide6) for Autodesk 3ds Max. It streamlines the hard-surface modeling, environment design, and concept art workflow by allowing artists to instantly browse, insert, and manipulate 3D assets with zero friction.
 
